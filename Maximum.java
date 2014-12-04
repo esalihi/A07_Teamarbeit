@@ -83,19 +83,19 @@ public class Maximum {
 	 * **/
 	private void Max(){
 		
+
 		max=nums[0];
 		
 		for(int z=1;z<5;z++){
 			
 			if(nums[z]>max){
-				
 				max=nums[z];
-				
 			}
 			
 		}
-		
 	}
+
+	
 	
 	/**
 	 * 
@@ -104,19 +104,16 @@ public class Maximum {
 	 * **/
 	private void Min(){
 		
-		max=nums[0];
+
+		min=nums[0];
 		
 		for(int z=0;z<5;z++){
 			
-			if(nums[z]<max){
-				
-				max=nums[z];
-				
+			if(nums[z]<min){
+				min=nums[z];
 			}
-			
 		}
 		
 	}
-	
 	
 }
