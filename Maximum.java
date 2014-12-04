@@ -83,6 +83,7 @@ public class Maximum {
 	 * **/
 	private void Max(){
 		
+<<<<<<< HEAD
 
 		max=nums[0];
 		
@@ -90,6 +91,18 @@ public class Maximum {
 			
 			if(nums[z]>max){
 				max=nums[z];
+=======
+		for(int z=1;z<5;z++){
+			
+			if(nums[z-1]>nums[z]){
+				
+				max=nums[z-1];
+				
+			}else{
+				
+				max=nums[z];
+				
+>>>>>>> 70372b34e31f14c896d156385a3a4a199ec0730c
 			}
 			
 		}
@@ -104,6 +117,7 @@ public class Maximum {
 	 * **/
 	private void Min(){
 		
+<<<<<<< HEAD
 
 		min=nums[0];
 		
@@ -111,6 +125,18 @@ public class Maximum {
 			
 			if(nums[z]<min){
 				min=nums[z];
+=======
+		for(int z=1;z<5;z++){
+			
+			if(nums[z-1]<nums[z]){
+				
+				max=nums[z-1];
+				
+			}else{
+				
+				max=nums[z];
+				
+>>>>>>> 70372b34e31f14c896d156385a3a4a199ec0730c
 			}
 		}
 		

@@ -1,4 +1,4 @@
 A07_Teamarbeit
 ==============
 
-Salihi, Scholz, Netrwal, Kanyildiz 
+Demir, Salihi, Scholz, Netrwal, Kanyildiz
