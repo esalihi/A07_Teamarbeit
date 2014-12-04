@@ -1,12 +1,6 @@
 public class Flaeche {
 	double fleache;
-	public Flaeche(int art,int
-			
-			
-			
-			
-			
-			part1,int part2,int part3){
+	public Flaeche(int art,int part1,int part2,int part3){
 		 
 		switch(art){
 		 
@@ -32,7 +26,7 @@ public class Flaeche {
 		fleache = (a+b+c)*2/h;
 	}
 	
-	private double getfleache(){
+	double getfleache(){
 		return this.fleache;
 	}
 	private double setfleache(){
