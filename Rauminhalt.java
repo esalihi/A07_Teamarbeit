@@ -46,7 +46,7 @@ public class Rauminhalt {
      * @param h hoehe
      */
     private void calcPyramid(int l, int b, int h){
-        inhalt = (1/3)*(l*b)*h;
+        inhalt = (1.0/3.0)*(l*b)*h;
     }
 
     /**
@@ -55,7 +55,7 @@ public class Rauminhalt {
      * @param h Hoehe
      */
     private void calcKegel(int r, int h){
-        inhalt = (1/3)*(Math.PI)*(r*r)*h;
+        inhalt = (1.0/3.0)*(Math.PI)*(r*r)*h;
     }
     
     /**
