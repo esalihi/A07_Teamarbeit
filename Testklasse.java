@@ -28,31 +28,13 @@ public class Testklasse {
 		
 		System.out.println("Berechnung von Zahlen");
 		
+		//Array Index out of bounds fehler.
 		Maximum m1 = new Maximum(1,2,3,4,5);
-			System.out.println(m1.getSum);
-			System.out.println(m1.getMax);
-			System.out.println(m1.getMin);
+			System.out.println(m1.getSum());
+			System.out.println(m1.getMax());
+			System.out.println(m1.getMin());
 			
-		Maximum m2 = new Maximum(1,2,3,4,5);
-			System.out.println(m2.getSum);
-			System.out.println(m2.getMax);
-			System.out.println(m2.getMin);
 		
-		Maximum m3 = new Maximum(1,2,3,4,5);
-			System.out.println(m3.getSum);
-			System.out.println(m3.getMax);
-			System.out.println(m3.getMin);
-			
-		Maximum m4 = new Maximum(1,2,3,4,5);
-			System.out.println(m4.getSum);
-			System.out.println(m4.getMax);
-			System.out.println(m4.getMin);
-		
-		Maximum m5 = new Maximum(1,2,3,4,5);
-			System.out.println(m5.getSum);
-			System.out.println(m5.getMax);
-			System.out.println(m5.getMin);
-			
 			
 
 

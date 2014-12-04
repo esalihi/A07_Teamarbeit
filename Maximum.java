@@ -83,15 +83,15 @@ public class Maximum {
 	 * **/
 	private void Max(){
 		
-		for(int z=0;z<5;z++){
+		for(int z=1;z<5;z++){
 			
-			if(nums[z]>nums[z+1]){
+			if(nums[z-1]>nums[z]){
 				
-				max=nums[z];
+				max=nums[z-1];
 				
 			}else{
 				
-				max=nums[z+1];
+				max=nums[z];
 				
 			}
 			
@@ -106,15 +106,15 @@ public class Maximum {
 	 * **/
 	private void Min(){
 		
-		for(int z=0;z<5;z++){
+		for(int z=1;z<5;z++){
 			
-			if(nums[z]<nums[z+1]){
+			if(nums[z-1]<nums[z]){
 				
-				max=nums[z];
+				max=nums[z-1];
 				
 			}else{
 				
-				max=nums[z+1];
+				max=nums[z];
 				
 			}
 			
